@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:ital,wght@0,800;1,700;1,800&display=swap');
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65),rgba(14, 2, 121, 0.65)), url("../selective-focus-at-pen-on-plain-notebook-paper-on-working-table-with-blurred-laptop-computer-at-the-background-work-or-study-from-home-concept-new-normal-after-covid-pandemic-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.todo-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    color: #ffffff;
+    text-decoration-line:underline;
+    text-shadow: #000000;
+}
+
+ul {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    padding: 0;
+}
+button{
+    size-adjust: 10;
+    block-size: 100;
+}
+
+li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+}
+
+.complete-btn, .delete-btn {
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
